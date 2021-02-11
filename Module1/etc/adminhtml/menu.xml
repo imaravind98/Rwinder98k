@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Rwinder98k_Module1::Module1" title="Module1" module="rwinder98k_Module1" sortOrder="51"
+         resource="Rwinder98k_Module1::Module1"/>
+        <add id="Rwinder98k_Module1::post" title="Posts" module="rwinder98k_Module1" sortOrder="10" 
+        action="rwinder98k_module1/post" resource="Rwinder98k_Module1::post" 
+        parent="Rwinder98k_Module1::Module1"/>
+       
+    </menu>
+</config>

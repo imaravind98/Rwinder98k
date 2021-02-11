@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Rwinder98k_Odyssey::Odyssey" title="Odyssey" module="Rwinder98k_Odyssey" sortOrder="51"
+         resource="Rwinder98k_Odyssey::Odyssey"/>
+        <add id="Rwinder98k_Odyssey::post" title="Posts" module="Rwinder98k_Odyssey" sortOrder="10" 
+        action="rwinder98k_odyssey/post" resource="Rwinder98k_Odyssey::post" 
+        parent="Rwinder98k_Odyssey::Odyssey"/>
+       
+    </menu>
+</config>

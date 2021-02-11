@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:holamundo:Magento_Widget:etc/widget.xsd">
+	<widget class="Rwinder98k\Module1\Block\Widget\Posts" id="rwinder98k_module1_posts">
+		<label>Wid1</label>
+		<description>New Widget</description>
+		<parameters>
+			<parameter name="title" sort_order="10" visible="true" xsi:type="text">
+				<label>Title</label>
+			</parameter>
+			<parameter name="des" sort_order="10" visible="true" xsi:type="text">
+				<label>Description</label>
+			</parameter>
+		</parameters>
+	</widget>
+</widgets>
